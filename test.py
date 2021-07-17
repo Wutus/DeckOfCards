@@ -1,8 +1,7 @@
-from card_api import api_get
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from PIL import Image
-from Deck import Deck
+from DeckOfCards import Deck, Card
 
 deck = Deck()
 

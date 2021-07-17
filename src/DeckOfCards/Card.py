@@ -3,7 +3,7 @@ from enum import Enum, IntEnum, auto
 from functools import cache
 from io import BytesIO
 import requests
-import card_api
+import DeckOfCards.internal.card_api as card_api
 
 class CardValue(IntEnum):
     ACE = 1

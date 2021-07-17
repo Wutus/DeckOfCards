@@ -1,7 +1,7 @@
 from django.http import response
-import card_api
+from DeckOfCards.Card import Card
+import DeckOfCards.internal.card_api as card_api
 from typing import List
-from Card import Card
 
 class Deck:
     """Wrapper for Deck object"""
